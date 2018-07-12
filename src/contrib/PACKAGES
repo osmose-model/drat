@@ -1,0 +1,8 @@
+Package: osmose
+Version: 0.1.1.9001
+Depends: R (>= 2.15)
+Imports: graphics, grDevices, rlist, stats, stringr, utils,
+       knitr, rmarkdown
+License: CeCILL
+MD5sum: a2a40f6903672f1ce822911dbceb1fb5
+NeedsCompilation: no
