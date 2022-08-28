@@ -1,0 +1,2 @@
+# drat
+OSMOSE drat repository.
