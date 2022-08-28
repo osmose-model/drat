@@ -1,0 +1,6 @@
+Package: calibrar
+Version: 0.3.0
+Depends: R (>= 2.15)
+Imports: cmaes, optimr, foreach, parallel, stats, utils
+Suggests: deSolve
+License: GPL-2
