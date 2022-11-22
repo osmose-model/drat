@@ -11,8 +11,8 @@ Version: 0.4.0
 Depends: R (>= 2.10)
 Imports: grDevices, htmltools (>= 0.5.2), jsonlite, sass (>= 0.4.0),
         jquerylib (>= 0.1.3), rlang, cachem, memoise
-Suggests: shiny (>= 1.6.0), rmarkdown (>= 2.7), thematic, knitr, testthat,
-        withr, rappdirs, curl, magrittr
+Suggests: shiny (>= 1.6.0), rmarkdown (>= 2.7), thematic, knitr,
+        testthat, withr, rappdirs, curl, magrittr
 License: MIT + file LICENSE
 MD5sum: f87443166da11799c80befce0d09b3ea
 NeedsCompilation: no
@@ -89,6 +89,15 @@ MD5sum: 388fbb3ca257c544359d818733f30f3a
 NeedsCompilation: no
 
 Package: calibrar
+Version: 0.3.0.0012
+Depends: R (>= 2.15)
+Imports: cmaes, optimr, foreach, parallel, stats, utils
+Suggests: deSolve
+License: GPL-2
+MD5sum: adb74c541f658e89056f722c1f5e0040
+NeedsCompilation: no
+
+Package: calibrar
 Version: 0.3.0
 Depends: R (>= 2.15)
 Imports: cmaes, optimr, foreach, parallel, stats, utils
@@ -121,9 +130,10 @@ Package: colorspace
 Version: 2.0-3
 Depends: R (>= 3.0.0), methods
 Imports: graphics, grDevices, stats
-Suggests: datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd, tcltk,
-        shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg, knitr,
-        rmarkdown, RColorBrewer, rcartocolor, scico, viridis, wesanderson
+Suggests: datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
+        tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg,
+        knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
+        wesanderson
 License: BSD_3_clause + file LICENSE
 MD5sum: 9e8ca3d4343ce80c0decfc5d02b9105c
 NeedsCompilation: yes
@@ -132,8 +142,8 @@ Package: data.table
 Version: 1.14.2
 Depends: R (>= 3.1.0)
 Imports: methods
-Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), curl, R.utils, xts, nanotime,
-        zoo (>= 1.8-1), yaml, knitr, rmarkdown
+Suggests: bit64 (>= 4.0.0), bit (>= 4.0.4), curl, R.utils, xts,
+        nanotime, zoo (>= 1.8-1), yaml, knitr, rmarkdown
 License: MPL-2.0 | file LICENSE
 MD5sum: a9ab8e430b59adab832e5bde0acd66a2
 NeedsCompilation: yes
@@ -150,8 +160,8 @@ NeedsCompilation: yes
 Package: dotCall64
 Version: 1.0-1
 Depends: R (>= 3.1)
-Suggests: microbenchmark, OpenMPController, RColorBrewer, roxygen2, spam,
-        testthat,
+Suggests: microbenchmark, OpenMPController, RColorBrewer, roxygen2,
+        spam, testthat,
 License: GPL (>= 2)
 MD5sum: 02a36739648e548e943568b732100346
 NeedsCompilation: yes
@@ -218,14 +228,14 @@ NeedsCompilation: yes
 Package: ggplot2
 Version: 3.3.6
 Depends: R (>= 3.3)
-Imports: digest, glue, grDevices, grid, gtable (>= 0.1.1), isoband, MASS,
-        mgcv, rlang (>= 0.4.10), scales (>= 0.5.0), stats, tibble, withr
-        (>= 2.0.0)
-Suggests: covr, ragg, dplyr, ggplot2movies, hexbin, Hmisc, interp, knitr,
-        lattice, mapproj, maps, maptools, multcomp, munsell, nlme,
-        profvis, quantreg, RColorBrewer, rgeos, rmarkdown, rpart, sf (>=
-        0.7-3), svglite (>= 1.2.0.9001), testthat (>= 2.1.0), vdiffr (>=
-        1.0.0), xml2
+Imports: digest, glue, grDevices, grid, gtable (>= 0.1.1), isoband,
+        MASS, mgcv, rlang (>= 0.4.10), scales (>= 0.5.0), stats, tibble,
+        withr (>= 2.0.0)
+Suggests: covr, ragg, dplyr, ggplot2movies, hexbin, Hmisc, interp,
+        knitr, lattice, mapproj, maps, maptools, multcomp, munsell,
+        nlme, profvis, quantreg, RColorBrewer, rgeos, rmarkdown, rpart,
+        sf (>= 0.7-3), svglite (>= 1.2.0.9001), testthat (>= 2.1.0),
+        vdiffr (>= 1.0.0), xml2
 Enhances: sp
 License: MIT + file LICENSE
 MD5sum: 292f91cb575f0b456f56a2167add7236
@@ -320,9 +330,9 @@ Imports: evaluate (>= 0.15), highr, methods, stringr (>= 0.6), yaml (>=
 Suggests: markdown, formatR, testit, digest, rgl (>= 0.95.1201),
         codetools, rmarkdown, htmlwidgets (>= 0.7), webshot, tikzDevice
         (>= 0.10), tinytex, reticulate (>= 1.4), JuliaCall (>= 0.11.1),
-        magick, png, jpeg, gifski, xml2 (>= 1.2.0), httr, DBI (>= 0.4-1),
-        showtext, tibble, sass, bslib, ragg, styler (>= 1.2.0), targets
-        (>= 0.6.0)
+        magick, png, jpeg, gifski, xml2 (>= 1.2.0), httr, DBI (>=
+        0.4-1), showtext, tibble, sass, bslib, ragg, styler (>= 1.2.0),
+        targets (>= 0.6.0)
 License: GPL
 MD5sum: 763387908d18a33b99223607038dd522
 NeedsCompilation: no
@@ -409,8 +419,8 @@ NeedsCompilation: no
 Package: optimx
 Version: 2022-4.30
 Imports: numDeriv
-Suggests: knitr, rmarkdown, setRNG, BB, ucminf, minqa, dfoptim, lbfgsb3c,
-        lbfgs, subplex
+Suggests: knitr, rmarkdown, setRNG, BB, ucminf, minqa, dfoptim,
+        lbfgsb3c, lbfgs, subplex
 License: GPL-2
 MD5sum: ae1654dcd1498ec0d2bbcafbf92e1f68
 NeedsCompilation: no
@@ -452,6 +462,15 @@ MD5sum: 48b772ff0f3cebbb995a7d5a78fbaefa
 NeedsCompilation: no
 
 Package: osmose
+Version: 4.3.3.0007
+Depends: R (>= 3.5.0)
+Imports: calibrar (>= 0.3), fields, graphics, grDevices, knitr, mgcv,
+        ncdf4, R.utils, rlist, rmarkdown, stats, stringr, utils
+License: GPL-3 + file LICENSE
+MD5sum: 589168dfd78e142148847c057f792bd6
+NeedsCompilation: no
+
+Package: osmose
 Version: 4.3.3
 Depends: R (>= 3.5.0)
 Imports: graphics, grDevices, rlist, stats, knitr, rmarkdown, stringr,
@@ -464,10 +483,10 @@ Package: pillar
 Version: 1.8.1
 Imports: cli (>= 2.3.0), fansi, glue, lifecycle, rlang (>= 1.0.2), utf8
         (>= 1.1.0), utils, vctrs (>= 0.3.8)
-Suggests: bit64, debugme, DiagrammeR, dplyr, formattable, ggplot2, knitr,
-        lubridate, nanotime, nycflights13, palmerpenguins, rmarkdown,
-        scales, stringi, survival, testthat (>= 3.1.1), tibble, units (>=
-        0.7.2), vdiffr, withr
+Suggests: bit64, debugme, DiagrammeR, dplyr, formattable, ggplot2,
+        knitr, lubridate, nanotime, nycflights13, palmerpenguins,
+        rmarkdown, scales, stringi, survival, testthat (>= 3.1.1),
+        tibble, units (>= 0.7.2), vdiffr, withr
 License: MIT + file LICENSE
 MD5sum: f6fe56e1875fd314344148c59807531f
 NeedsCompilation: no
@@ -536,8 +555,9 @@ Package: rmarkdown
 Version: 2.15
 Depends: R (>= 3.0)
 Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), htmltools (>= 0.3.5),
-        jquerylib, jsonlite, knitr (>= 1.22), methods, stringr (>= 1.2.0),
-        tinytex (>= 0.31), tools, utils, xfun (>= 0.30), yaml (>= 2.1.19)
+        jquerylib, jsonlite, knitr (>= 1.22), methods, stringr (>=
+        1.2.0), tinytex (>= 0.31), tools, utils, xfun (>= 0.30), yaml
+        (>= 2.1.19)
 Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>=
         1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3),
         tibble, tufte, vctrs, withr (>= 2.4.2)
@@ -610,12 +630,14 @@ NeedsCompilation: no
 Package: tibble
 Version: 3.1.8
 Depends: R (>= 3.1.0)
-Imports: fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods, pillar
-        (>= 1.7.0), pkgconfig, rlang (>= 1.0.2), utils, vctrs (>= 0.3.8)
+Imports: fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods,
+        pillar (>= 1.7.0), pkgconfig, rlang (>= 1.0.2), utils, vctrs (>=
+        0.3.8)
 Suggests: bench, bit64, blob, brio, callr, cli, covr, crayon (>= 1.3.4),
-        DiagrammeR, dplyr, evaluate, formattable, ggplot2, hms, htmltools,
-        knitr, lubridate, mockr, nycflights13, pkgbuild, pkgload, purrr,
-        rmarkdown, stringi, testthat (>= 3.0.2), tidyr, withr
+        DiagrammeR, dplyr, evaluate, formattable, ggplot2, hms,
+        htmltools, knitr, lubridate, mockr, nycflights13, pkgbuild,
+        pkgload, purrr, rmarkdown, stringi, testthat (>= 3.0.2), tidyr,
+        withr
 License: MIT + file LICENSE
 MD5sum: 8ce0aca91502ee8772105c8f3575ad06
 NeedsCompilation: yes
@@ -651,9 +673,9 @@ Package: viridis
 Version: 0.6.2
 Depends: R (>= 2.10), viridisLite (>= 0.4.0)
 Imports: stats, ggplot2 (>= 1.0.1), gridExtra
-Suggests: hexbin (>= 1.27.0), scales, MASS, knitr, dichromat, colorspace,
-        raster, rasterVis, httr, mapproj, vdiffr, svglite (>= 1.2.0),
-        testthat, covr, rmarkdown, rgdal, maps
+Suggests: hexbin (>= 1.27.0), scales, MASS, knitr, dichromat,
+        colorspace, raster, rasterVis, httr, mapproj, vdiffr, svglite
+        (>= 1.2.0), testthat, covr, rmarkdown, rgdal, maps
 License: MIT + file LICENSE
 MD5sum: 7d79c64e67e55c8aad12758199b58d53
 NeedsCompilation: no
@@ -670,8 +692,8 @@ Package: withr
 Version: 2.5.0
 Depends: R (>= 3.2.0)
 Imports: graphics, grDevices, stats
-Suggests: callr, covr, DBI, knitr, lattice, methods, rlang, rmarkdown (>=
-        2.12), RSQLite, testthat (>= 3.0.0)
+Suggests: callr, covr, DBI, knitr, lattice, methods, rlang, rmarkdown
+        (>= 2.12), RSQLite, testthat (>= 3.0.0)
 License: MIT + file LICENSE
 MD5sum: 26006b3833199a6b6db70fda04126b87
 NeedsCompilation: no
@@ -680,8 +702,8 @@ Package: xfun
 Version: 0.32
 Imports: stats, tools
 Suggests: testit, parallel, codetools, rstudioapi, tinytex (>= 0.30),
-        mime, markdown, knitr, htmltools, remotes, pak, rhub, renv, curl,
-        jsonlite, magick, rmarkdown
+        mime, markdown, knitr, htmltools, remotes, pak, rhub, renv,
+        curl, jsonlite, magick, rmarkdown
 License: MIT + file LICENSE
 MD5sum: 3fc58ca0e2b2a2769e50d5b364b8b728
 NeedsCompilation: yes
