@@ -414,6 +414,13 @@ License: GPL (>= 3)
 MD5sum: 88c4941f2fa31a5a5e422b5779dc72ec
 NeedsCompilation: yes
 
+Package: nloptr
+Version: 2.1.1
+Suggests: knitr, rmarkdown, covr, tinytest
+License: LGPL (>= 3)
+MD5sum: d11015f1c48bc8eeb0cb6bfa94603dbd
+NeedsCompilation: yes
+
 Package: numDeriv
 Version: 2016.8-1.1
 Depends: R (>= 2.11.1)
@@ -443,6 +450,15 @@ Suggests: knitr, rmarkdown, setRNG, BB, ucminf, minqa, dfoptim,
         lbfgsb3c, lbfgs, subplex
 License: GPL-2
 MD5sum: ae1654dcd1498ec0d2bbcafbf92e1f68
+NeedsCompilation: no
+
+Package: optimx
+Version: 2024-12.2
+Imports: numDeriv, nloptr, pracma
+Suggests: knitr, rmarkdown, setRNG, BB, ucminf, minqa, dfoptim,
+        lbfgsb3c, lbfgs, subplex, marqLevAlg, testthat (>= 3.0.0), R.rsp
+License: GPL-2
+MD5sum: 657a8a621309a287fd94eb8d67d1a77d
 NeedsCompilation: no
 
 Package: osmose
@@ -544,6 +560,15 @@ Imports: utils
 Suggests: covr, testthat, disposables (>= 1.0.3)
 License: MIT + file LICENSE
 MD5sum: 7b9ca1d45d941238381cb55d13ff4d68
+NeedsCompilation: no
+
+Package: pracma
+Version: 2.4.4
+Depends: R (>= 3.1.0)
+Imports: graphics, grDevices, stats, utils
+Suggests: NlcOptim, quadprog
+License: GPL (>= 3)
+MD5sum: f45e85a91a5e14b56a86191dd0bc9abd
 NeedsCompilation: no
 
 Package: R6
