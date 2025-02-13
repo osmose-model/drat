@@ -15,4 +15,5 @@ if(length(other)!=0)  drat::insertPackages(file.path(dependencies, other), ".")
 
 # install.packages("osmose", repo="https://osmose-model.github.io/drat/")
 # install.packages("calibrar", repo="https://osmose-model.github.io/drat/")
+# install.packages("lbfgsb3c", repo="https://osmose-model.github.io/drat/")
 
