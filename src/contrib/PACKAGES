@@ -28,6 +28,15 @@ MD5sum: dda8ecf0d6c2b287134bb926824f3551
 NeedsCompilation: yes
 
 Package: calibrar
+Version: 0.3.0
+Depends: R (>= 2.15)
+Imports: cmaes, optimr, foreach, parallel, stats, utils
+Suggests: deSolve
+License: GPL-2
+MD5sum: 91943965b903f284a5ad33a44039f937
+NeedsCompilation: no
+
+Package: calibrar
 Version: 0.3.0.0001
 Depends: R (>= 2.15)
 Imports: cmaes, optimr, foreach, parallel, stats, utils
@@ -97,15 +106,6 @@ Imports: cmaes, optimr, foreach, parallel, stats, utils
 Suggests: deSolve
 License: GPL-2
 MD5sum: adb74c541f658e89056f722c1f5e0040
-NeedsCompilation: no
-
-Package: calibrar
-Version: 0.3.0
-Depends: R (>= 2.15)
-Imports: cmaes, optimr, foreach, parallel, stats, utils
-Suggests: deSolve
-License: GPL-2
-MD5sum: 91943965b903f284a5ad33a44039f937
 NeedsCompilation: no
 
 Package: calibrar
@@ -504,6 +504,16 @@ MD5sum: 657a8a621309a287fd94eb8d67d1a77d
 NeedsCompilation: no
 
 Package: osmose
+Version: 4.3.3
+Depends: R (>= 3.5.0)
+Imports: graphics, grDevices, rlist, stats, knitr,
+      rmarkdown, stringr, utils, ncdf4, mgcv, fields,
+      calibrar, R.utils
+License: GPL-3 + file LICENSE
+MD5sum: 608fd3372bb1c488bdafeab0408bfa78
+NeedsCompilation: no
+
+Package: osmose
 Version: 4.3.3.0001
 Depends: R (>= 3.5.0)
 Imports: graphics, grDevices, rlist, stats, knitr,
@@ -561,16 +571,6 @@ Imports: calibrar (>= 0.3), fields, graphics,
       rmarkdown, stats, stringr, utils
 License: GPL-3 + file LICENSE
 MD5sum: 52457400d7ad0a1a028422f0b1b37921
-NeedsCompilation: no
-
-Package: osmose
-Version: 4.3.3
-Depends: R (>= 3.5.0)
-Imports: graphics, grDevices, rlist, stats, knitr,
-      rmarkdown, stringr, utils, ncdf4, mgcv, fields,
-      calibrar, R.utils
-License: GPL-3 + file LICENSE
-MD5sum: 608fd3372bb1c488bdafeab0408bfa78
 NeedsCompilation: no
 
 Package: osmose

@@ -2,6 +2,6 @@ Package: osmose
 Version: 4.4.0.9001
 Depends: R (>= 3.5.0)
 Imports: calibrar (>= 0.3), fields, graphics,
-     grDevices, knitr, mgcv, ncdf4, R.utils,
-     rlist, rmarkdown, stats, stringr, utils
+      grDevices, knitr, mgcv, ncdf4, R.utils, rlist,
+      rmarkdown, stats, stringr, utils
 License: GPL-3 + file LICENSE
