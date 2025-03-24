@@ -11,6 +11,12 @@ install.packages("osmose",  destdir=scratch, type="source")
 # installing two extra dependencies that are not in the CRAN versions
 install.packages("optimr",  destdir=scratch, type="source")
 install.packages("fields",  destdir=scratch, type="source")
+# parallelisation packages
+install.packages("codetools",  destdir=scratch, type="source")
+install.packages("iterators",  destdir=scratch, type="source")
+install.packages("foreach",  destdir=scratch, type="source")
+install.packages("doSNOW",  destdir=scratch, type="source")
+install.packages("doParallel",  destdir=scratch, type="source")
 
 # remove CRAN versions of calibrar and osmose
 calibrar = dir(path=scratch, pattern="calibrar")
