@@ -85,6 +85,14 @@ License: GPL
 MD5sum: b6d2fb49c00a528b04f574892359aa55
 NeedsCompilation: no
 
+Package: colorful
+Version: 0.0.1.9001
+Depends: R (>= 2.15), graphics, grDevices
+Imports: stats, utils
+License: GPL-2
+MD5sum: dbd1e7f4b68cd444f04253915400126e
+NeedsCompilation: no
+
 Package: colorspace
 Version: 2.0-3
 Depends: R (>= 3.0.0), methods
