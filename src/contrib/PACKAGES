@@ -444,6 +444,17 @@ MD5sum: 79b402e711cedb31cfdbc9ad442e71e8
 NeedsCompilation: yes
 
 Package: maptools
+Version: 1.1-12
+Depends: R (>= 2.10), sp (>= 1.0-11)
+Imports: foreign (>= 0.8), methods, grid, lattice, stats, utils, grDevices
+Suggests: rgeos (>= 0.1-8), spatstat.geom (>= 1.65-0), PBSmapping, maps,
+        RColorBrewer, raster, polyclip, plotrix, spatstat.linnet (>=
+        1.65-3), spatstat.utils (>= 1.19.0), spatstat (>= 2.0-0)
+License: GPL (>= 2)
+MD5sum: 03f02a99805f9e21237859c2be087fa3
+NeedsCompilation: yes
+
+Package: maptools
 Version: 1.1-9
 Depends: R (>= 2.10), sp (>= 1.0-11)
 Imports: foreign (>= 0.8), methods, grid, lattice, stats, utils, grDevices
