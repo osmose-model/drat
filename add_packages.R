@@ -18,4 +18,7 @@ drat::updateRepo(".", type="source")
 # install.packages("osmose", repo="https://osmose-model.github.io/drat/")
 # install.packages("calibrar", repo="https://osmose-model.github.io/drat/")
 # install.packages("lbfgsb3c", repo="https://osmose-model.github.io/drat/")
+# install.packages("gts", repo="https://osmose-model.github.io/drat/")
+
+
 
