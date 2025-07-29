@@ -20,8 +20,8 @@ Version: 0.4.0
 Depends: R (>= 2.10)
 Imports: grDevices, htmltools (>= 0.5.2), jsonlite, sass (>= 0.4.0),
         jquerylib (>= 0.1.3), rlang, cachem, memoise
-Suggests: shiny (>= 1.6.0), rmarkdown (>= 2.7), thematic, knitr, testthat,
-        withr, rappdirs, curl, magrittr
+Suggests: shiny (>= 1.6.0), rmarkdown (>= 2.7), thematic, knitr,
+        testthat, withr, rappdirs, curl, magrittr
 License: MIT + file LICENSE
 MD5sum: f87443166da11799c80befce0d09b3ea
 NeedsCompilation: no
@@ -97,9 +97,10 @@ Package: colorspace
 Version: 2.0-3
 Depends: R (>= 3.0.0), methods
 Imports: graphics, grDevices, stats
-Suggests: datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd, tcltk,
-        shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg, knitr,
-        rmarkdown, RColorBrewer, rcartocolor, scico, viridis, wesanderson
+Suggests: datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
+        tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg,
+        knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
+        wesanderson
 License: BSD_3_clause + file LICENSE
 MD5sum: 9e8ca3d4343ce80c0decfc5d02b9105c
 NeedsCompilation: yes
@@ -432,7 +433,8 @@ NeedsCompilation: yes
 Package: maptools
 Version: 1.1-10
 Depends: R (>= 2.10), sp (>= 1.0-11)
-Imports: foreign (>= 0.8), methods, grid, lattice, stats, utils, grDevices
+Imports: foreign (>= 0.8), methods, grid, lattice, stats, utils,
+        grDevices
 Suggests: rgeos (>= 0.1-8), spatstat.geom (>= 1.65-0), PBSmapping, maps,
         RColorBrewer, raster, polyclip, plotrix, spatstat.linnet (>=
         1.65-3), spatstat.utils (>= 1.19.0), spatstat (>= 2.0-0)
@@ -443,7 +445,8 @@ NeedsCompilation: yes
 Package: maptools
 Version: 1.1-11
 Depends: R (>= 2.10), sp (>= 1.0-11)
-Imports: foreign (>= 0.8), methods, grid, lattice, stats, utils, grDevices
+Imports: foreign (>= 0.8), methods, grid, lattice, stats, utils,
+        grDevices
 Suggests: rgeos (>= 0.1-8), spatstat.geom (>= 1.65-0), PBSmapping, maps,
         RColorBrewer, raster, polyclip, plotrix, spatstat.linnet (>=
         1.65-3), spatstat.utils (>= 1.19.0), spatstat (>= 2.0-0)
@@ -454,7 +457,8 @@ NeedsCompilation: yes
 Package: maptools
 Version: 1.1-12
 Depends: R (>= 2.10), sp (>= 1.0-11)
-Imports: foreign (>= 0.8), methods, grid, lattice, stats, utils, grDevices
+Imports: foreign (>= 0.8), methods, grid, lattice, stats, utils,
+        grDevices
 Suggests: rgeos (>= 0.1-8), spatstat.geom (>= 1.65-0), PBSmapping, maps,
         RColorBrewer, raster, polyclip, plotrix, spatstat.linnet (>=
         1.65-3), spatstat.utils (>= 1.19.0), spatstat (>= 2.0-0)
@@ -465,7 +469,8 @@ NeedsCompilation: yes
 Package: maptools
 Version: 1.1-9
 Depends: R (>= 2.10), sp (>= 1.0-11)
-Imports: foreign (>= 0.8), methods, grid, lattice, stats, utils, grDevices
+Imports: foreign (>= 0.8), methods, grid, lattice, stats, utils,
+        grDevices
 Suggests: rgeos (>= 0.1-8), spatstat.geom (>= 1.65-0), PBSmapping, maps,
         RColorBrewer, raster, polyclip, plotrix, spatstat.linnet (>=
         1.65-3), spatstat.utils (>= 1.19.0), spatstat (>= 2.0-0)
@@ -591,6 +596,15 @@ Imports: calibrar (>= 0.9), fields, graphics, grDevices, knitr, mgcv,
         ncdf4, R.utils, rlist, rmarkdown, stats, stringr, utils
 License: GPL-3 + file LICENSE
 MD5sum: 68baac11dbfc7f0c042969f2b3175a92
+NeedsCompilation: no
+
+Package: osmose
+Version: 4.4.1.9038
+Depends: R (>= 3.5.0)
+Imports: calibrar (>= 0.9), fields, graphics, grDevices, knitr, mgcv,
+        ncdf4, R.utils, rlist, rmarkdown, stats, stringr, utils
+License: GPL-3 + file LICENSE
+MD5sum: 2d82d1687ff6c82cae4013ffbd5eb9ab
 NeedsCompilation: no
 
 Package: pillar
@@ -739,8 +753,9 @@ Package: rmarkdown
 Version: 2.15
 Depends: R (>= 3.0)
 Imports: bslib (>= 0.2.5.1), evaluate (>= 0.13), htmltools (>= 0.3.5),
-        jquerylib, jsonlite, knitr (>= 1.22), methods, stringr (>= 1.2.0),
-        tinytex (>= 0.31), tools, utils, xfun (>= 0.30), yaml (>= 2.1.19)
+        jquerylib, jsonlite, knitr (>= 1.22), methods, stringr (>=
+        1.2.0), tinytex (>= 0.31), tools, utils, xfun (>= 0.30), yaml (>=
+        2.1.19)
 Suggests: digest, dygraphs, fs, rsconnect, downlit (>= 0.4.0), katex (>=
         1.4.0), sass (>= 0.4.0), shiny (>= 1.6.0), testthat (>= 3.0.3),
         tibble, tufte, vctrs, withr (>= 2.4.2)
@@ -851,12 +866,14 @@ NeedsCompilation: no
 Package: tibble
 Version: 3.1.8
 Depends: R (>= 3.1.0)
-Imports: fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods, pillar
-        (>= 1.7.0), pkgconfig, rlang (>= 1.0.2), utils, vctrs (>= 0.3.8)
+Imports: fansi (>= 0.4.0), lifecycle (>= 1.0.0), magrittr, methods,
+        pillar (>= 1.7.0), pkgconfig, rlang (>= 1.0.2), utils, vctrs (>=
+        0.3.8)
 Suggests: bench, bit64, blob, brio, callr, cli, covr, crayon (>= 1.3.4),
-        DiagrammeR, dplyr, evaluate, formattable, ggplot2, hms, htmltools,
-        knitr, lubridate, mockr, nycflights13, pkgbuild, pkgload, purrr,
-        rmarkdown, stringi, testthat (>= 3.0.2), tidyr, withr
+        DiagrammeR, dplyr, evaluate, formattable, ggplot2, hms,
+        htmltools, knitr, lubridate, mockr, nycflights13, pkgbuild,
+        pkgload, purrr, rmarkdown, stringi, testthat (>= 3.0.2), tidyr,
+        withr
 License: MIT + file LICENSE
 MD5sum: 8ce0aca91502ee8772105c8f3575ad06
 NeedsCompilation: yes
